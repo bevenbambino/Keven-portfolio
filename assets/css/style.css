@@ -57,16 +57,7 @@ p {
     font-size: 16px;
 }
 
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.float-left {
+/* .float-left {
     float: left;
     margin-right: 25px;
 }
@@ -74,7 +65,7 @@ p {
 .float-right {
     float: right;
     margin-left: 25px;
-}
+} */
 
 /* This sets the width, display property, and margin-left for the content element on the page. */
 .content {
@@ -111,7 +102,6 @@ p {
 }
 
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
-    display: block;
     margin: 10px auto;
     max-width: 150px;
 }
@@ -133,14 +123,29 @@ p {
     font-size: 36px;
 }
 
+.images {
+    border: solid;
+    border-color: #18122B;
+    border-width: thick;
 
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
 }
 
-.footer h2 {
-    font-size: 20px;
+.info-paragraph {
+    border: solid;
+    border-color: #18122B;
+    border-width: thick;
+    padding: 20px;
+}
+
+h2 {
+    width: 20% !important;
+    padding-right: 10px;
+}
+
+ .side{
+    text-align: center;
+} 
+
+#About-Me {
+    display: flex;
 }
