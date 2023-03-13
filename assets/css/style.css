@@ -13,7 +13,7 @@ body {
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color: #635985;
     color: #ffffff;
 }
 
@@ -44,6 +44,7 @@ header nav ul {
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    text-decoration: underline;
 }
 
 /* This sets the text color and text decoration for any links on the page. */
@@ -119,7 +120,7 @@ p {
     margin-bottom: 20px;
     padding: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: purple;
+    background-color: #443C68;
     color: #ffffff;
 }
 
