@@ -1,133 +1,165 @@
 /* *: Applies to all elements on the page. */
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    background-color: #d9dcd6;
+  background-color: #d9dcd6;
 }
 
 /* This sets the padding, font family, background color, and text color for the header element. */
 header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #635985;
-    color: #ffffff;
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #635985;
+  color: #ffffff;
+  width: 100%;
 }
 
 header h1 {
-    display: inline-block;
-    font-size: 48px;
+  display: inline-block;
+  font-size: 48px;
 }
 
 /* This sets the text color for any elements with a class of "seo" that are nested within the h1 element within the header. */
 header h1 .seo {
-    color: #d9dcd6;
+  color: #d9dcd6;
 }
 
 header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
 }
 
 /* This sets the list-style-type property to none for any unordered lists within the nav element within the header. */
 header nav ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 /* This sets the display property and margin-left for any list items within unordered lists within the nav element within the header. */
 header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-    text-decoration: underline;
+  display: inline-block;
+  margin-left: 25px;
+  text-decoration: underline;
 }
 
 /* This sets the text color and text decoration for any links on the page. */
 a {
-    color: #ffffff;
-    text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 p {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 /* This sets the width, display property, and margin-left for the content element on the page. */
 .content {
-    width: 100%;
-    display: inline-block;
-    margin-left: 20px;
+  width: 100%;
+  display: inline-block;
+  margin-left: 20px;
 }
 
-.search-engine-optimization, .online-reputation-management, .social-media-marketing  {
-    margin-bottom: 20px;
-    padding: 50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #443C68;
-    color: #ffffff;
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing {
+  margin-bottom: 20px;
+  padding: 50px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #443c68;
+  color: #ffffff;
 }
 
- .first-project img{
-    width: 100%; 
- }
+.first-project img {
+  width: 100%;
+}
 
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
 }
 
 .images {
-    border: solid;
-    border-color: #18122B;
-    border-width: thick;
+  border: solid;
+  border-color: #18122b;
+  border-width: thick;
 }
 
 .info-paragraph {
-    border: solid;
-    border-color: #18122B;
-    border-width: thick;
-    padding: 20px;
-    width: 80%;
-    margin-right: auto;
-    margin-left: auto;
+  border: solid;
+  border-color: #18122b;
+  border-width: thick;
+  padding: 20px;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 h2 {
-    width: 20% ;
-    padding-right: 10px;
-    border-right: #d9dcd6 solid 5px;
+  width: 20%;
+  padding-right: 10px;
+  border-right: #d9dcd6 solid 5px;
 }
 
 #About-Me {
-    display: flex;
+  display: flex;
 }
 
-.contacts{
-    display: flex;
-    justify-content: space-around;
+.contacts {
+  display: flex;
+  justify-content: space-around;
 }
 
-.online-reputation-management{
-    display: flex;
+.online-reputation-management {
+  display: flex;
 }
 
-.first-project{
-    flex: 1 0 100%;
-
+.first-project {
+  flex: 1 0 100%;
 }
-.section-projects{
-    display: flex;
-    flex-wrap: wrap;
-    width: 70%; 
-    justify-content: center;
+.section-projects {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  justify-content: center;
 }
 
-.side{
+.side {
+  text-align: center;
+  width: 70%;
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    display: block;
+    text-align: center; 
+  }
+  nav{
+    /* display: block; */
     text-align: center;
-    width: 70%;
+  }
+  .search-engine-optimization, .side, .online-reputation-management, .section-projects, .social-media-marketing, .contacts{
+    display: block;
+    width: 100%;
+  }
+  h2{
+    width: 100%;
+  }
+  article{
+    width: 100%;
+  }
+  p{
+    width: 100%;
+  }
+  img{
+    width: 100%;
+  }
 }
