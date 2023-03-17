@@ -66,9 +66,9 @@ p {
   margin-left: 20px;
 }
 
-.search-engine-optimization,
-.online-reputation-management,
-.social-media-marketing {
+.blocks,
+.work-block,
+.contact-me-block {
   margin-bottom: 20px;
   padding: 50px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -80,9 +80,9 @@ p {
   width: 100%;
 }
 
-.search-engine-optimization h2,
-.online-reputation-management h2,
-.social-media-marketing h2 {
+.blocks h2,
+.work-block h2,
+.contact-me-block h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
@@ -118,7 +118,7 @@ h2 {
   justify-content: space-around;
 }
 
-.online-reputation-management {
+.work-block {
   display: flex;
 }
 
@@ -146,7 +146,7 @@ h2 {
     /* display: block; */
     text-align: center;
   }
-  .search-engine-optimization, .side, .online-reputation-management, .section-projects, .social-media-marketing, .contacts{
+  .blocks, .side, .work-block, .section-projects, .contact-me-block, .contacts{
     display: block;
     width: 100%;
   }
