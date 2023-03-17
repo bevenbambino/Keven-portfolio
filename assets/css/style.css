@@ -57,53 +57,11 @@ p {
     font-size: 16px;
 }
 
-/* .float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-} */
-
 /* This sets the width, display property, and margin-left for the content element on the page. */
 .content {
     width: 100%;
     display: inline-block;
     margin-left: 20px;
-}
-
-/* .benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}  */
-
-.benefit-lead, .benefit-brand,.benefit-cost{
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-
-.benefit-brand h3, .benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img, .benefit-brand img, .benefit-cost img {
-    margin: 10px auto;
-    max-width: 150px;
 }
 
 .search-engine-optimization, .online-reputation-management, .social-media-marketing  {
@@ -114,9 +72,9 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
-    max-height: 200px;
-}
+ .first-project img{
+    width: 100%; 
+ }
 
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
@@ -127,7 +85,6 @@ p {
     border: solid;
     border-color: #18122B;
     border-width: thick;
-
 }
 
 .info-paragraph {
@@ -135,16 +92,16 @@ p {
     border-color: #18122B;
     border-width: thick;
     padding: 20px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 h2 {
-    width: 30% !important;
+    width: 20% ;
     padding-right: 10px;
+    border-right: #d9dcd6 solid 5px;
 }
-
- .side{
-    text-align: center;
-} 
 
 #About-Me {
     display: flex;
@@ -157,15 +114,20 @@ h2 {
 
 .online-reputation-management{
     display: flex;
-    flex-wrap: wrap;
 }
 
 .first-project{
-    flex: 1 0 80%
+    flex: 1 0 100%;
+
 }
 .section-projects{
     display: flex;
     flex-wrap: wrap;
-    width: 80%; 
-    justify-content: end;
+    width: 70%; 
+    justify-content: center;
+}
+
+.side{
+    text-align: center;
+    width: 70%;
 }
